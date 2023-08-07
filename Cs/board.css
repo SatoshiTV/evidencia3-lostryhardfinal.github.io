@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem;   
+    color: #f5f3f5;
+    text-shadow: 2px 2px 2px #f5f3f5a8;
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #f5f3f5;
+    text-shadow: 2px 2px 2px #f5f3f5a8;  
+    font-family: serif;
+}
+    
+#player1-button {
+    margin: 2rem;
+    color: #070707;
+    text-shadow: 2px 2px 2px #f5f3f5;  
+    font-family: serif;
+    font-size: 31px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-600%, -50%);
+}
+
+#score-player1 {
+    margin: 2rem;
+    color: #f5f3f5;
+    text-shadow: 2px 2px 2px #f5f3f5a8;  
+    font-family: serif;
+    font-size: 35px;    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-210%, 500%);
+}
+
+#player2-button {
+    margin: 2rem;
+    color: #080708;
+    text-shadow: 2px 2px 2px #f5f3f5;  
+    font-family: serif;
+    font-size: 31px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(450%, -45%);
+}
+
+#score-player2 {
+    margin: 2rem;
+    color: #f5f3f5;
+    text-shadow: 2px 2px 2px #f5f3f5a8;  
+    font-family: serif;
+    font-size: 35px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%, 500%);
+}
+
+.mensaje {
+    color: black;
+}
+
+.descripcion {
+    color: black;
+}
+
+.peligro {
+    color: red;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
